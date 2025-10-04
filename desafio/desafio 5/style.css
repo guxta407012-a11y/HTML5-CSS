@@ -1,0 +1,80 @@
+body {
+            margin: 0px 0px 0px 0px;
+        }
+
+        header {
+            background-color: black;
+            padding: 70px;
+            text-align: center;
+        }
+
+        header > h1 {
+            color: white;
+            margin: 0px;
+            font-size: 10vw;
+        }
+
+        header > p {
+            color: white;
+            margin: 0px;
+            margin-top: 13px;
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        span {
+            color: rgba(255, 255, 255, 0.568);
+        }
+
+        main {
+            margin-top: 80px;
+            margin-bottom: 80px;
+        }
+
+        main > p {
+            line-height: 80px;
+            margin-top: 10px;
+            margin-left: 25px;
+            margin-bottom: 80px;
+            font-size: 45px;
+        }
+
+        #container {
+            position: relative;
+            height: 115vh;
+            padding: 10px;
+
+            background-image: url(imagens/ladybug-3475779_1280.jpg);
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+
+        #conteudo {
+            position: absolute;
+            color: white;
+            background-color: rgba(0, 0, 0, 0.349);
+
+            margin-top: 70px;
+            margin-bottom: 70px;
+            margin-left: 25px;
+        }
+
+        #conteudo > p {
+            line-height: 80px;
+            font-size: 45px;
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+
+        #espaçamento {
+            margin-top: 70px;
+        }
