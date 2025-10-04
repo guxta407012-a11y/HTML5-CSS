@@ -18,7 +18,7 @@
         header > h1 {
             color: white;
             margin: 0px;
-            font-size: 5em;
+            font-size: 10vw;
         }
 
         header > p {
@@ -41,7 +41,7 @@
         }
 
         main {
-            margin-top: 60px;
+            margin-top: 80px;
             margin-bottom: 80px;
         }
 
@@ -49,27 +49,37 @@
             line-height: 80px;
             margin-top: 10px;
             margin-left: 25px;
+            margin-bottom: 80px;
             font-size: 45px;
         }
 
         #container {
             position: relative;
-            width: 100%;
-            height: 100vh;
+            height: 110vh;
+            padding: 10px;
+
             background-image: url(imagens/ladybug-3475779_1280.jpg);
+            background-position: center center;
             background-repeat: no-repeat;
-            transform: translate(-50%, -50%);
+            background-size: cover;
+            background-attachment: fixed;
         }
 
         #conteudo {
             position: absolute;
             color: white;
             background-color: rgba(0, 0, 0, 0.349);
-            width: 462px;
-            line-height: 80px;
-            margin-top: 10px;
+
+            margin-top: 70px;
+            margin-bottom: 70px;
             margin-left: 25px;
-            font-size: 45px;;
+        }
+
+        #conteudo > p {
+            line-height: 80px;
+            font-size: 45px;
+            margin-top: 5px;
+            margin-bottom: 5px;
         }
     </style>
 </head>
@@ -81,7 +91,13 @@
 
     <main>
         <p>Estou ficando cansado<br>Da tal tecnologia<br>Só se fala por e-mail<br>Mensagem curta e fria<br>Twitter e facebook<br>Antes que caduque<br>Vou dizer tudo em poesia.</p>
-        <section id="container"><p id="conteudo">Não é mais com era antes<br>É tudo abreviado<br>"Você" só tem duas letras<br>O "O" e o "e" foi riscado<br>Para declarar o amor<br> Basta botar uma flor<br> E um coração desenhado.</p></section>
+        <section id="container">  
+            <article id="conteudo">
+
+                <p>Não é mais com era antes<br>É tudo abreviado<br>"Você" só tem duas letras<br>O "O" e o "e" foi riscado<br>Para declarar o amor<br> Basta botar uma flor<br> E um coração desenhado.</p>
+
+            </article>
+        </section>
     </main>
 </body>
 </html>
