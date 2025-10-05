@@ -5,7 +5,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 
 :root {
-    --fonte1:Verdana, Geneva, Tahoma, Sans-serif;
+    --fonte1: Verdana, Geneva, Tahoma, Sans-serif;
     --fonte2: 'Passion One', cursive;
     --fonte3: 'sriracha', cursive;
 }
@@ -33,15 +33,20 @@ header > h1 {
 }
 
 header > p {
-    color: rgba(255, 255, 255, 0.432);
+    color: rgba(255, 255, 255, 0.671);
     font-family: var(--fonte1);
 
     margin-top: 0px;
     font-size: 13px;
 }
 
-a {
+.links {
+    color: white;
     text-decoration: none;
+}
+
+.links:hover {
+    text-decoration: underline;
 }
 
 main > .texton {
@@ -65,6 +70,7 @@ section.img {
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;
+    box-shadow: inset 3px 3px 12px rgba(0, 0, 0, 0.24);
 }
 
 
@@ -72,10 +78,38 @@ section.img {
     margin-top: 8px;
     margin-bottom: 8px;
     margin-left: 25px;
+    padding-left: 3px;
 
     color: white;
     font-family: var(--fonte3);
     font-size: 3vw;
     background-color: rgba(0, 0, 0, 0.548);
     max-width: 40vw;
+    text-shadow: 1px 1px 0px black;
+}
+
+section#espaço {
+    margin-top: 50px;
+}
+
+section#img02 {
+    background-image: url(imagens/background002.jpg);
+}
+
+footer {
+    margin-top: 50px;
+    padding: 8px;
+
+    background-color: black;
+    text-align: center;
+    font-family: var(--fonte1);
+}
+
+footer > p {
+    color: rgba(255, 255, 255, 0.623);
+    margin: 0px;
+}
+
+.destaque {
+    color: white;
 }
