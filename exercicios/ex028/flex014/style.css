@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: dimgrey;
+}
+
+div.pai { /* container */
+    background-color: lightgray;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+div.filhos { /*conteudo */
+    display: inline;
+}
+
+.texto {
+    background-color: white;
+    padding: 10px;
+    width: 85vw;
+}
+
+.texto > h1 {
+    padding: 10px;
+}
+
+.texto > p {
+    text-align: justify;
+}
+
+
