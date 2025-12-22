@@ -29,6 +29,10 @@ main {
     flex-flow: row wrap;
 }
 
+#reverse {
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
 
 footer {
     padding: 10px;
@@ -48,7 +52,10 @@ footer > h2 {
 }
 
 #c2 {
-    flex: 1 2 330px;
+    flex: 3 0 330px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     
 }
 
@@ -57,7 +64,26 @@ footer > h2 {
     order: 1;
 }
 
-#c4 {
+#pinto {
     flex: 1 2 330px;
     order: 2;
+    padding-top: 0px;
+    padding-bottom: 0px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
+#c4 {
+    background-color: black;
+    padding: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+div.c4 > iframe {
+    width: 90vw;
+    display: block;
+}
+
