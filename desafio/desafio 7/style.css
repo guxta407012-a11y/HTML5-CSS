@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+/* moblie first */
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    margin-top: 30px;
+
+    display: grid;
+
+    grid-template-columns: 10px 1fr 10px;
+    grid-template-rows: 1fr 1fr;
+    height: 100vh;
+    gap: 1px;
+}
+
+.ficha {
+    background-color: blue;
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    grid-area: 1 / 2 / 2 / -2;
+}
+
+.destalhes {
+    background-color: blue;
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    grid-area: 2 / 2 / -2 / -2;
+}
