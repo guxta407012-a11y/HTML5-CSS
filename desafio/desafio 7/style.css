@@ -2,6 +2,16 @@
 
 /* moblie first */
 
+/* 
+  Variáveis para cores:
+  --fundo-principal
+  --texto
+  --texto-inverso
+  --destaque
+  --destaque-inverso
+  --fundo-card
+*/
+
 * {
     margin: 0px;
     padding: 0px;
@@ -18,7 +28,7 @@ body {
     display: grid;
 
     grid-template-columns: 10px 1fr 10px;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr 2fr;
     height: 100vh;
     gap: 1px;
 }
