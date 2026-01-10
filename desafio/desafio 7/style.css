@@ -40,6 +40,7 @@ header {
     background-color: var(--destaque);
     color: var(--texto);
     padding: 10px;
+
     display: flex;
     justify-content: flex-end;
     align-content: center;
@@ -47,6 +48,7 @@ header {
 
 nav#menu ul {
     list-style: none;
+
     display: flex;
     gap: 10px;
 }
@@ -65,34 +67,3 @@ nav#menu a:hover {
     transition: .2s;
 }
 
-.container {
-    margin-top: 30px;
-    margin-bottom: 30px;
-
-    display: grid;
-
-    grid-template-columns: 10px 1fr 10px;
-    grid-template-rows: 1fr 3fr;
-    height: 100vh;
-    gap: 1px;
-}
-
-.ficha {
-    background-color: blue;
-
-    display: flex;
-
-    justify-content: center;
-    align-items: center;
-    grid-area: 1 / 2 / 2 / -2;
-}
-
-.destalhes {
-    background-color: blue;
-
-    display: flex;
-
-    justify-content: center;
-    align-items: center;
-    grid-area: 2 / 2 / -2 / -2;
-}
