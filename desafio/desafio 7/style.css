@@ -74,9 +74,9 @@ nav#menu a:hover {
 
     display: grid;
     grid-template-columns: 20px 1fr 20px;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     height: 90vh;
-    gap: 10px;
+    gap: 20px;
 }
 
 #ficha {
@@ -84,6 +84,7 @@ nav#menu a:hover {
     grid-area: 1 / 2 / 2 / 2;
     padding: 10px;
     padding-top: 20px;
+    border-radius: 5px;
 }
 
 #ficha h1 {
@@ -126,17 +127,97 @@ nav#menu a:hover {
 #destalhes {
     background-color: var(--fundo-card);
     grid-area: 2 / 2 / 2 / 2;
+    padding: 20px;
 }
 
-#destalhes h1 {
+#destalhes h2 {
     color: var(--destaque);
     margin: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
 }
 
 article#video .videocont {
     position: relative;
     width: 100%;
-    margin: auto;
     aspect-ratio: 16/9;
 }
 
+.videocont iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+}
+
+#skills {
+    background-color: var(--fundo-card);
+    padding: 20px;
+    border-radius: 5px;
+
+    grid-area: 3 / 2 / 3 / 2;
+}
+
+#skills h2 {
+    color: var(--destaque);
+    margin-bottom: 0px;
+}
+
+.habi {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--fundo-card);
+    font-weight: bold;
+    margin: 0px;
+    margin-top: 30px;
+}
+
+.barra {
+    background-color: lightgrey;
+    width: 100%;
+    height: 10px;
+    display: block;
+    border-radius: 10px;
+}
+
+.barra p {
+    width: 50%;
+    border-radius: 10px;
+    background-color: var(--destaque-inverso);
+    display: block;
+    height: 10px;
+}
+
+
+
+#formação {
+    border-radius: 5px;
+    background-color: var(--fundo-card);
+    padding: 20px;
+
+    grid-area: 4 / 2 / 4 / 2;
+}
+
+#formação h2 {
+    color: var(--destaque);
+}
+
+#bloco {
+    background-color: rgb(248, 246, 246);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 15px;
+    margin-left: 5px;
+} 
+
+
+
+#projetos {
+    border-radius: 5px;
+    background-color: var(--fundo-card);
+    padding: 20px;
+    color: var(--destaque);
+    grid-area: 5 / 2 / 5 / 2;
+}
