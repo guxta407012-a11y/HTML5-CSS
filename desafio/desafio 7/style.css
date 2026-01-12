@@ -212,6 +212,18 @@ article#video .videocont {
     margin-left: 5px;
 } 
 
+#bloco:hover {
+    background-color: red;
+}
+
+#bloco2 {
+    background-color: var(--destaque);
+    border-radius: 10px;
+    width: 100%;
+    padding: 0px;
+}
+
+
 
 
 #projetos {
