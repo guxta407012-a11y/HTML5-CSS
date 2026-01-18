@@ -1,34 +1,63 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 700px){
-    #td {
-        grid-template-columns: 1fr 1fr;
-    } 
-}
 
 @media screen and (min-width: 768px){
 
-    .videocont iframe {
-        max-height: 450px;
-        max-width: 1000px;
+    #td {
+        grid-template-columns: 1fr 1fr;
+    } 
+
+    .videocont iframe { /* video container */
+        max-height: 400px;
     }
 
     #destalhes {
-        height: 60vw;
-        max-height: 550px;
+        height: 40vw;
+        max-height: 500px;
     }
 
-    .projeto {
+    .projeto { /* fotos ao lado, no projeot */
         flex-direction: row-reverse;
         justify-content: space-between;
-        max-height: 250px;
     }
 
     .projeto .foto {
-        height: 20vw;
-        width: 20vw;
+        height: 15vw;
+        width: 15vw;
         margin-left: 20px;
-        max-height: 200px;
+    }
+
+    #container { /* mudanças para grandes telas */
+        grid-template-columns: 30px 1fr 2fr 30px;
+    }
+
+    #ficha {
+        grid-area: 1 / 2 / 5 / 2;
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 30vw;
+        height: 100vh;
+        margin-left: 30px;
+    
+    }
+
+    #destalhes {
+        grid-area: 1 / 3 / 1 / 3;
+        margin-top: 70px;
+    }
+
+    #skills {
+        grid-area: 2 / 3 / 2 / 3;
+                margin-top: 0px;
+    }
+
+    #formação {
+        grid-area: 3 / 3 / 3 / 3;
+    }
+
+    #projetos {
+        grid-area: 4 / 3 / 4 / 3;
     }
 
 }    
