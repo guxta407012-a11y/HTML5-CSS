@@ -10,10 +10,6 @@
     }
 
     #detalhes {
-        grid-row: 1 / 1;
-        grid-column: 3 / 3;
-        height: 420px;
-    }
         grid-column: 3;
     }
 
