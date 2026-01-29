@@ -13,10 +13,6 @@
         top: 70px;
     }
 
-    #ficha h2 {
-        font-size: 2vw;
-    }
-
     #detalhes {
         grid-column: 3 / 4;
     }

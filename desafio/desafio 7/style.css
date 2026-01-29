@@ -77,11 +77,10 @@ main {
     padding: 15px;
 }
 
-#ficha h2 {
+#ficha h1 {
     color: var(--destaque);
     text-align: center;
     margin: 10px;
-    font-size: 2vw;
 }
 
 #ficha p {
@@ -115,6 +114,29 @@ main {
     background-color: var(--fundo-card);
     border-radius: 10px;
     margin-bottom: 30px;
+    padding: 20px;
+}
+
+#video h1 {
+    color: var(--destaque);
+    margin-bottom: 10px;
+}
+
+.videocont {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 16/9;
+    margin: auto;
+    max-height: 550px;
+}
+
+.videocont iframe {
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
 }
 
 
@@ -123,7 +145,22 @@ main {
     background-color: var(--fundo-card);
     border-radius: 10px;
     margin-bottom: 30px;
+    padding: 20px;
+
+    display: grid;
+    grid-template-columns: 1fr;
 }
+
+#ski h1 {
+    color: var(--destaque);
+    margin-bottom: 20px;
+}
+
+.habi {
+    display: flex;
+}
+
+
 
 
 
