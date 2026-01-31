@@ -10,14 +10,16 @@
         grid-column: 2 / 3;
         height: fit-content;
         position: sticky;
-        top: 70px;
+        top: 65px;
     }
 
     #detalhes {
         grid-column: 3 / 4;
     }
 
-    #ski {
-    grid-column: 3;
+    .containertd {
+        grid-template-columns: 1fr 1fr;
     }
+
 }
+
