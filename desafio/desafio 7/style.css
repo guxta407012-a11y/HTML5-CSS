@@ -258,20 +258,20 @@ main {
     
     display: flex;
     flex-flow: column nowrap;
+    gap: 10px;
 }
 
 #bloco .fotob {
     width: 100%;
+    text-align: center;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    overflow: hidden;
     border-radius: 5px;
 }
 
 #bloco .info {
     padding: 5px;
-    margin: 5px;
-}
-
-.periodo {
-    margin: 5px;
 }
 
 .titulo {
@@ -280,6 +280,5 @@ main {
     margin-left: 0px;
 }
 
-.descri {
-    text-align: justify;
-}
+
+

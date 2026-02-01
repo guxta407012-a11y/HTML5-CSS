@@ -23,6 +23,17 @@
 
     #bloco {
         flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+
+    .info {
+        max-width: 80%;
+    }
+
+    .fotob {
+        aspect-ratio: 1/1;
+        max-width: 20%;
+        max-height: 200px;
     }
 
 }
