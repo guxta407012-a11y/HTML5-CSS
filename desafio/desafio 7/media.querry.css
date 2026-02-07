@@ -26,5 +26,9 @@
         justify-content: space-between;
     }
 
+    #bloco .fotob {
+        max-height: 150px;
+    }
+
 }
 

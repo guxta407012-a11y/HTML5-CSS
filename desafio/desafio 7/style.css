@@ -15,8 +15,20 @@
     box-sizing: border-box;
 }
 
+body.escuro {
+    --fundo-principal: #222222;
+    --texto: #e0e0e0;
+    --destaque: #ff5522;
+    --destaque-inverso: #a73917;
+    --fundo-card: #444444;
+    --texto-inverso: #333333;
+}
+
 body {
     background-color: var(--fundo-principal);
+    transition: background-color .5s, color .5s;
+    height: 100%;
+    width: 100%;
 }
 
 header {
@@ -58,7 +70,7 @@ header {
 
 main {
     display: grid;
-    grid-template-columns: auto 90vw 50px;
+    grid-template-columns: auto 1fr auto;
     gap: 30px;
     padding-top: 30px;
 }
@@ -97,7 +109,7 @@ main {
 }
 
 #social a {
-    color: #0077ff;
+    color: var(--destaque);
 }
 
 .foto {
@@ -235,14 +247,18 @@ main {
 #cor {
     background-color: var(--destaque);
     border-radius: 15px;
+    color: var(--texto);
 }
 
 #cor2 {
     color: var(--destaque-inverso);
+    margin-bottom: 5px;
 }
 
 #bold {
     font-weight: bold;
+    color: var(--texto);
+    margin-bottom: 5px;
 }
 
 
@@ -251,6 +267,7 @@ main {
     background-color: var(--fundo-card);
     border-radius: 10px;
     padding: 10px;
+    margin-bottom: 30px;
 }
 
 #projetos h2 {
@@ -265,10 +282,20 @@ main {
     padding: 17px;
     border-radius: 10px;
     margin-bottom: 30px;
+    margin-left: 5px;
     
     display: flex;
     flex-flow: column nowrap;
     gap: 10px;
+}
+
+#bloco:hover {
+    margin-left: 10px;
+}
+
+#blocot {
+    background-color: var(--destaque);
+    border-radius: 15px;
 }
 
 #bloco .fotob {
@@ -279,18 +306,24 @@ main {
     object-fit: cover;
     overflow: hidden;
     border-radius: 5px;
-    max-height: 250px;
+    max-height: 200px;
 }
 
 #bloco .info {
     padding: 5px;
     margin-left: 10px;
+    color: var(--texto);
 }
 
 .titulo {
     font-weight: bold;
     margin: 5px;
     margin-left: 0px;
+    color: var(--texto);
+}
+
+.descri {
+    color: var(--texto);
 }
 
 
